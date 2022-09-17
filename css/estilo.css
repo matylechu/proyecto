@@ -308,7 +308,13 @@ textarea{
     padding: 10px;
 }
 /*HOJA DE ESTILO OPINIONES*/
-.opiniones .caja-contenedor .caja{
+.caja-contedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.caja{
     background-color: #31384a77;
     margin: 1rem;
     padding: 1rem;
@@ -319,14 +325,25 @@ textarea{
     border-radius: .5rem;
     flex: 1 1 30rem;
 }
-.opiniones .caja-contenedor .caja .stars .p{
-    position: absolute;
-    top: 1rem;
-    right: 2rem;
-    font-size: 8rem;
-    color: var(--limon);
-    opacity: .3;
+.stars p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+
 }
-.opiniones .caja-contenedor .caja .user{
+.user img{
     border-radius: 50%;
+    object-fit: cover;
+    height: 8rem;
+    width: 8rem;
+    margin-top: 2rem;
+}
+.user h3{
+    color: white;
+    font-size: 2rem;
+
+}
+.comentario p{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
 }
