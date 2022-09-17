@@ -307,3 +307,26 @@ textarea{
     text-shadow: 2px 2px 5px rgb(235, 200, 235);
     padding: 10px;
 }
+/*HOJA DE ESTILO OPINIONES*/
+.opiniones .caja-contenedor .caja{
+    background-color: #31384a77;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    border: 1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    flex: 1 1 30rem;
+}
+.opiniones .caja-contenedor .caja .stars .p{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 8rem;
+    color: var(--limon);
+    opacity: .3;
+}
+.opiniones .caja-contenedor .caja .user{
+    border-radius: 50%;
+}
