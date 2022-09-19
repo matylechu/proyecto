@@ -32,8 +32,6 @@ h1{
     text-align: center; 
     background-color:rgb(0, 0, 0, 0.438);
     padding: 1rem;
-    border-radius: 17px;
-    
 }
 #fondo p{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -307,6 +305,12 @@ textarea{
     padding: 10px;
 }
 /*HOJA DE ESTILO OPINIONES*/
+.opiniones h2{
+    color: #ffffff;
+    margin: 0;
+    font-size: 30px;
+    margin-top: 50px;
+}
 .caja-contedor{
     display: flex;
     align-items: center;
