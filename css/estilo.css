@@ -2,12 +2,12 @@
 *{
     padding: 0;
     margin: 0;
-
+    box-sizing: border-box;
 }
 .flexcenter{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
 }
 #fondo{
     background-image: url(../img/Cabaña_frente.jpeg);
@@ -15,8 +15,7 @@
     height: 550px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
-    margin: auto;
+    background-size: auto;
     box-shadow: 5px 8px 12px black;
     border-radius: 15px;
     margin-top: 20px;
