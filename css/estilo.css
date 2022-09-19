@@ -7,7 +7,7 @@
 .flexcenter{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
 }
 #fondo{
     background-image: url(../img/Cabaña_frente.jpeg);
@@ -15,8 +15,12 @@
     height: 550px;
     background-repeat: no-repeat;
     background-position: center;
+<<<<<<< HEAD
     background-size: cover;
     margin:auto;
+=======
+    background-size: auto;
+>>>>>>> main
     box-shadow: 5px 8px 12px black;
     border-radius: 15px;
     margin-top: 20px;
@@ -305,4 +309,44 @@ textarea{
     text-align: center;
     text-shadow: 2px 2px 5px rgb(235, 200, 235);
     padding: 10px;
+}
+/*HOJA DE ESTILO OPINIONES*/
+.caja-contedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.caja{
+    background-color: #31384a77;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    border: 1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    flex: 1 1 30rem;
+}
+.stars p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+
+}
+.user img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 8rem;
+    width: 8rem;
+    margin-top: 2rem;
+}
+.user h3{
+    color: white;
+    font-size: 2rem;
+
+}
+.comentario p{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
 }
