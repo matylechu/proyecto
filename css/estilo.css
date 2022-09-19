@@ -15,7 +15,7 @@
     height: 550px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
     box-shadow: 5px 8px 12px black;
     border-radius: 15px;
     margin-top: 20px;
